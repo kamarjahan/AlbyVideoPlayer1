@@ -1,4 +1,4 @@
-# ALBYVIDEOPLAYERBOT
+# SEPTVIDIOBOT
 Telegram bot to stream videos in telegram voicechat for both groups and channels. Supports live streams, YouTube videos and telegram media. With record stream support, Schedule streams, and many more.
 
 ## Config Vars:
@@ -19,7 +19,7 @@ Telegram bot to stream videos in telegram voicechat for both groups and channels
 ### Optional Vars
 1. `LOG_GROUP` : Group to send Playlist, if CHAT is a Group()
 2. `ADMINS` : ID of users who can use admin commands.
-3. `STARTUP_STREAM` : This will be streamed on startups and restarts of bot. You can use either any STREAM_URL or a direct link of any video or a Youtube Live link. You can also use YouTube Playlist.Find a Telegram Link for your playlist from [PlayList Dumb](https://telegram.dog/DumpPlaylist) or get a PlayList from [ALBINPRAVEEN](https://telegram.dog/i_am_albin_ptaveen).
+3. `STARTUP_STREAM` : This will be streamed on startups and restarts of bot. You can use either any STREAM_URL or a direct link of any video or a Youtube Live link. You can also use YouTube Playlist.Find a Telegram Link for your playlist from [PlayList Dumb](https://telegram.dog/DumpPlaylist) or get a PlayList from [KAMARJAHAN](https://telegram.dog/kamarjahanin).
 4. `REPLY_MESSAGE` : A reply to those who message the USER account in PM. Leave it blank if you do not need this feature. (Configurable through bot if mongodb added.)
 5. `ADMIN_ONLY` : Pass `True` If you want to make /play command only for admins of `CHAT`. By default /play is available for all.(Configurable through bot if mongodb added.)
 6. `DATABASE_NAME`: Database name for your mongodb database.
@@ -47,12 +47,12 @@ Telegram bot to stream videos in telegram voicechat for both groups and channels
 
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ALBINPRAVEEN/AlbyVideoPlayer)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template= https://github.com/kamarjahan/AlbyVideoPlayer1)
 
 ## Deploy to VPS
 
 ```sh
-git clone https://github.com/ALBINPRAVEEN/AlbyVideoPlayer
+git clone https://github.com/kamarjahan/AlbyVideoPlayer1
 cd AlbyVideoPlayer
 pip3 install -r requirements.txt
 # <Create Variables appropriately (.env [optional])>
